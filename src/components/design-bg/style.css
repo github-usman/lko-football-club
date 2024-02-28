@@ -1,0 +1,18 @@
+.TopGradientDesign{
+    height: 3rem;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to top,#dd3d1d 0%,#dd3d1d 30%,#f99b70 80%,#f99b70 95%);
+    z-index: -100;
+}
+
+.bg-container{
+    background-color: #f0e4e1;
+    border-radius: 1.6rem;
+    height: calc(100vh - 2.3rem);
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+    top: 2.3rem;
+}
+
