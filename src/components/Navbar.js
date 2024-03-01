@@ -8,8 +8,8 @@ import { FaFacebook } from 'react-icons/fa'
 
 const Navbar = ({ isModalOpen, setIsModalOpen }) => {
   const [active, setActive] = useState(() => {
-    return localStorage.getItem('active') || '/'
-  })
+    return sessionStorage.getItem('active') || '/';
+  });
 
   const handleActive = (id) => {
     setActive(id)
@@ -20,8 +20,8 @@ const Navbar = ({ isModalOpen, setIsModalOpen }) => {
   }
 
   useEffect(() => {
-    localStorage.setItem('active', active)
-  }, [active])
+    sessionStorage.setItem('active', active);
+  }, [active]);
 
   return (
     <div
