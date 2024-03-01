@@ -1,6 +1,6 @@
 import React from 'react'
-import './style.css'
-const LucknowFc = () => {
+
+const Gallery = () => {
   return (
     <div
       style={{
@@ -21,7 +21,7 @@ const LucknowFc = () => {
           height: '100%',
         }}
       >
-        <h3 className='lucknowFc-heading'>LUCKNOW FC</h3>
+        <h3 className='Department-heading'>GALLERY</h3>
       </div>
       <div>
         <p
@@ -31,12 +31,11 @@ const LucknowFc = () => {
             padding: '1rem 1rem 2rem 1rem',
           }}
         >
-          Board of Governance | LFC Code of Conduct | Executive Body | Home
-          Stadium | Mission | Vision
+          Photos &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp; &nbsp; &nbsp; Videos{' '}
         </p>
       </div>
     </div>
   )
 }
 
-export default LucknowFc
+export default Gallery

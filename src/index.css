@@ -44,4 +44,14 @@
   transition: background-color 0.4s,font-size 0.4s ease;
 }
 
+.Drop-Option{
+  /* height: 10rem; */
+  background-color: yellow;
+}
+
+.Drop-select{
+  height: 3rem;
+  width: fit-content;
+  padding: 0 2rem;
+}
 

@@ -1,6 +1,7 @@
 import React from 'react'
-import './style.css'
-const LucknowFc = () => {
+import DropDownMenus from '../drop-down/DropDownMenu'
+
+const Trainning = () => {
   return (
     <div
       style={{
@@ -21,22 +22,11 @@ const LucknowFc = () => {
           height: '100%',
         }}
       >
-        <h3 className='lucknowFc-heading'>LUCKNOW FC</h3>
+        <h3 className='Department-heading'>TRAINNINGS</h3>
       </div>
-      <div>
-        <p
-          style={{
-            fontSize: '20px',
-            fontFamily: 'sans-serif',
-            padding: '1rem 1rem 2rem 1rem',
-          }}
-        >
-          Board of Governance | LFC Code of Conduct | Executive Body | Home
-          Stadium | Mission | Vision
-        </p>
-      </div>
+      <DropDownMenus />
     </div>
   )
 }
 
-export default LucknowFc
+export default Trainning
