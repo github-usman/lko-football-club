@@ -1,0 +1,12 @@
+.lucknowFc-heading , .Department-heading{
+        color:#9A3A14;
+        background-color: #F4B997;
+        border-top: none;
+        border-left: none;
+        border-right: 1px solid #F24423;
+        border-bottom: 1px solid #F24423;
+        text-align: start;
+        padding: 0.8rem 1rem;
+        font-size: 22px;
+        font-weight: bold;
+}

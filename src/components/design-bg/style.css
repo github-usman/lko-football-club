@@ -7,9 +7,9 @@
 }
 
 .bg-container{
-    background-color: #f0e4e1;
+    background-color: #FEF2EE;
     border-radius: 1.6rem;
-    height: calc(100vh - 2.3rem);
+    min-height: calc(100vh);
     width: 100%;
     z-index: -10;
     position: absolute;

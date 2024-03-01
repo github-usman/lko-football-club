@@ -3,8 +3,45 @@
   padding: 0 ;
   box-sizing: border-box;
   position: relative;
+  font-family: sans-serif;
 }
 .main-container{
   width: 80%;
   margin: 0 auto;
 }
+
+@media screen and (max-width : 1180px){
+  .main-container{
+    width: 90%;
+  }
+}
+@media screen and (max-width : 1010px){
+  .main-container{
+    width: 95%;
+  }
+}
+@media screen and (max-width : 900px){
+  .main-container{
+    width: 99%;
+  }
+}
+
+.active-btn{
+  background: #F9BEAB;
+  padding:0.3rem 0.5rem;
+  font-size:'20px';
+  font-weight: 900;
+  text-decoration:underline 1.5px solid;
+  color:#9A3A14;
+  transition: background-color 0.4s,font-size 0.4s ease;
+}
+
+.none-btn{
+  font-size:'20px';
+  font-weight: 600;
+  text-decoration:none;
+  color:#a85939;
+  transition: background-color 0.4s,font-size 0.4s ease;
+}
+
+
